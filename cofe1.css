@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+.navlist {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+.navlist li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.imgd {
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  display: flex;
+}
+section.hero {
+  display: flex;
+  background-color: black;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+#gr {
+  height: 50px;
+  width: 50px;
+}
+.herobin {
+  color: white;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#fn {
+  width: 80%;
+  height: 80%;
+}
+.ord {
+  display: flex;
+  gap: 50px;
+}
+#ordn {
+  height: 6Opx;
+  width: 190px;
+}
+#seem {
+  height: 6Opx;
+  width: 190px;
+}
+section.categories {
+  display: flex;
+  flex-direction: column;
+}
+.ccategory {
+  display: flex;
+  flex-direction: column;
+}
+#titre {
+  display: flex;
+  justify-content: center;
+}
+#ips1 {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.deux {
+  display: flex;
+  align-items: baseline;
+  width: 100vw;
+}
+.lower {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+.coca {
+  display: flex;
+
+  justify-content: flex-end;
+}
+#coca {
+  display: flex;
+}
+.gauche {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.ic {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.ic div {
+  display: flex;
+}
+.cafe div {
+  display: flex;
+}
+.dark div {
+  display: flex;
+}
+.cap {
+  display: flex;
+}
+.chief {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Qmg {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+.Qmg > div {
+  width: 20vw;
+}
+.Qmg div img {
+  width: 100%;
+}
+.Qmg div h1 {
+  font-size: 150%;
+}
+.meet {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Qmg > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.customers {
+  display: flex;
+}
+.ourg {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(26, 14, 14);
+}
+.ourg h1 {
+  color: whitesmoke;
+}
+.ourg p {
+  color: whitesmoke;
+}
+.ourd {
+  width: 50%;
+  background-image: url("cofeO.png");
+  background-position: right;
+}
+button#sub {
+  background-color: #bc9a6c;
+}
+div.butt {
+  height: 5%;
+}
+.sponsors {
+  display: flex;
+  flex-direction: column;
+}
+p#a {
+  color: white;
+}
+.wewk {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.lsmg {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .cont {
+  display: flex;
+  gap: 10%;
+}
+div.inp {
+  border-style: solid;
+  display: flex;
+  gap: 10px;
+  color: grey;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
